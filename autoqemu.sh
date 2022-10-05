@@ -36,6 +36,6 @@ sudo systemctl enable libvirtd.service
 sudo systemctl start libvirt.service
 sudo systemctl enable virtlogd.socket
 sudo systemctl start virtlogd.socket
-sudo virsh net-autostart default
-sudo virsh net-start default
+virsh net-autostart default
+virsh net-start default
 echo "All done , you can start virt-manager now."
